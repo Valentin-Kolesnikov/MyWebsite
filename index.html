@@ -2,7 +2,6 @@
 <html lang="ru"> <!--Корневой элемент--> <!--lang нужен для работы поисковых систем, переводчиков, браузера и т.д-->
     <head> <!--Заголовок страницы (не виден на странице)-->
         <meta charset="UTF-8"> <!--Устанавливает кодировку (русский будет отображаться корректно)-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Интересно</title> <!--Название вкладки браузера-->    
         <link rel="stylesheet" href=CSS/Styles.css> <!--link=для подключения внешних ресурсов; rel=Говорит браузеру: "Этот файл — таблица стилей (CSS)"-->
     </head>
@@ -13,7 +12,7 @@
             <h1>Добро пожаловать в игру!!!</h1> <!--Заголовок верхнего уровня (<h1> до <h6>=от верхнего(важного) для SEO до нижнего(менее важного))-->
         </header>
         
-        <div id="image"><img src="https://preview.redd.it/why-is-kiryu-kazuma-giving-a-thumbs-up-to-you-and-why-v0-5pdydtw7fa1a1.jpg?width=1080&crop=smart&auto=webp&s=3b306b5753c39abcb60523bd92b8d11eed9c69da" alt="Your dick greets you" width="30%"></div>
+        <img  src="https://preview.redd.it/why-is-kiryu-kazuma-giving-a-thumbs-up-to-you-and-why-v0-5pdydtw7fa1a1.jpg?width=1080&crop=smart&auto=webp&s=3b306b5753c39abcb60523bd92b8d11eed9c69da" alt="Your dick greets you" id="image">
         <!--<img>=изображения. src=адрес. alt=текст, если картинка не загрузится. Точнее показывается значок. width=ширина(можно в %, px и т.д.)-->
         
         <p class="Привет">Это мой первый сайт.</p> <!--Блочный элемент, поэтому будет каждая новая строка после вызова--> <!--class использует имя класса для CSS. Ссылается по-другому. Через "."-->
@@ -25,7 +24,7 @@
             <li>Интерактивным и простым</li>
         </ol>
         
-        <div class="box">ГОЛУБОЙГОЛУБОЙГОЛУБОЙГОЛУБОЙГОЛУБОЙГОЛУБОЙ</div>
+        <div class="box">ГОЛУБОЙГОЛУБОЙГОЛУБОЙ</div>
         
         <ul> <!--Неупорядоченный список. Через точки-->
             <li>Могу устроить и работу среди преподов на сайте. Посылать дз через сайт</li>
