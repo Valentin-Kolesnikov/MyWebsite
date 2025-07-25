@@ -1,0 +1,84 @@
+h1{ /*вызываю элемент из html, чтобы его изменить*/
+    color:#FF0033; /*цвет*/
+    font-size: 36px; /*размер шрифта*/
+    text-align: center; /*местоположение строчки*/
+}
+
+body{
+    font-size: 20px;
+}
+
+h2{
+    color:#FF0033;
+    font-size: 30px;
+}
+
+footer{
+    color: blueviolet;
+    font-size: 36px;
+    line-height: 1; /*разрыв между строчками*/
+    text-align: center;
+}
+
+ol{
+    margin-bottom: 34px;
+    color: green
+}
+
+section{
+    color:blue;
+}
+
+article{
+    color:#FFFFFF;
+    line-height: 0.03
+}
+
+ul{
+    margin-top: 34px;
+    color:brown
+}
+
+aside{ 
+    color:black
+}
+
+.Привет{ /*ссылаюсь по классу*/
+    color: orange
+}
+
+#Хеллоу{
+    color: darkorange
+}
+
+.box{
+    display: inline; /*Элемент идёт в строку. Нельзя задать width, height, margin по вертикали*/
+    padding: 20px; /*Отступ внутри блока до границы*/
+    border: 2px solid black; /*Граница блока*/ /*solid=сплошная линия. В данном случае для рамки*/
+    margin: 10px; /*Отступ вне блока до других. Из-за inline отступ работает только по горизонтали*/
+    background-color: lightblue;
+    color: lightblue
+}
+
+.box1{
+    height: 29px; /*width, height=размер коробки(x,y) для текста, картинки. Фиксирует размер*/
+    padding: 10px;
+    border: 2px solid skyblue; 
+    background-color: coral;
+    text-align: center;
+    font-size: 27px;
+    color:green
+}
+
+#Сладость{
+    color: #FFFFFF
+}
+
+#Полоска{
+    display: inline-block;
+    text-decoration: underline
+}
+
+#image{
+    width: 30%
+}
